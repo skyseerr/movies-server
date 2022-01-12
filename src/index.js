@@ -8,7 +8,7 @@ const { initDatabase } = require('./config/database-config');
 
 const app = express();
 
-const url = "http://localhost:3000";
+const url = "https://movie-tube-9f450.web.app";
 
 require('./config/express-config')(app);
 
